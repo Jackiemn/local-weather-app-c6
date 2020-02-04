@@ -18,7 +18,7 @@ this.current = {
   description: 'sunny'
 }as ICurrentWeather
    }
-   
+
   ngOnInit() {
   }
 
