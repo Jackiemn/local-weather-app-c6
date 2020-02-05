@@ -14,7 +14,7 @@ this.current = {
   country: 'US',
   date: 1485789600,
   image: '' ,
-  temperature: 35,
+  temperature: 18,
   description: 'sunny'
 }as ICurrentWeather
    }
