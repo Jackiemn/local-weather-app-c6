@@ -7,10 +7,10 @@ export interface ICurrentWeatherData {
   ],
  main: {
    temp: number
- } 
+ }, 
  sys: {
    country: string
- }
+ },
  dt: number,
  name: string
 }
