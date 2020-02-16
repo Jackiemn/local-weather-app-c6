@@ -4,7 +4,7 @@ import { ICurrentWeatherData } from './icurrent-weather-data';
 import { environment } from 'src/environments/environment';
 import {ICurrentWeather} from './icurrent-weather';
 import { Observable } from 'rxjs';
-import { map } from 'rxjs/operator';
+import {map} from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -27,7 +27,7 @@ export class WeatherService {
       date: data.dt * 1000,
       image: `http://openweathermap.org/img/w/${data.weather[0].icon}.png`,
       temperature: this.convertkelvinToFahrenheit(data.main.temp),
-      description: data.weather(0).description
+      description: data.weather[0].description
     }
 }
 
