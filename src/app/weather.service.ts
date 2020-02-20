@@ -4,7 +4,7 @@ import { ICurrentWeatherData } from './icurrent-weather-data';
 import { environment } from 'src/environments/environment';
 import {ICurrentWeather} from './icurrent-weather';
 import { Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
+import {map} from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
